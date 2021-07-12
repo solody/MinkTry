@@ -10,9 +10,9 @@ curl -o selenium-server-standalone.jar https://selenium-release.storage.googleap
 java -jar selenium-server-standalone.jar
 ```
 ```bash
-# 启用 safari 驱动
+# 开启 safari 驱动
 safaridriver --enable
-# 运行驱动
+# 运行驱动（可选，默认情况下，selenium 会自己去尝试启动）
 /usr/bin/safaridriver -p 1337
 ```
 
