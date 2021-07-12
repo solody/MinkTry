@@ -11,7 +11,7 @@ $session->start();
 
 $session->visit('http://www.baidu.com');
 $page = $session->getPage();
-$title = $page->find('css', '.s_btn');
-echo $title->getValue();
+$button = $page->find('css', '.s_btn');
+echo $button->getValue();
 
 $session->stop();
