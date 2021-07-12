@@ -1,0 +1,17 @@
+{
+  "name": "kent/mink-try",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kentkent",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "behat/mink": "1.8.1",
+    "behat/mink-goutte-driver": "*",
+    "behat/mink-selenium2-driver": "*"
+  }
+}
