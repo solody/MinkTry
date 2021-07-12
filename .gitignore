@@ -1,4 +1,4 @@
 .idea/
 vendor/
-selenium-server-standalone-*
+selenium-server-standalone*
 composer.phar
